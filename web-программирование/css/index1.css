@@ -1,0 +1,211 @@
+body{
+ background-color: #734939;
+ margin: 0;
+ color: #734939;
+ font-family: "AmericanTextCRegular";
+ overflow-x: hidden;
+}
+p{
+ margin:0;
+}
+#header{
+ background-color: #F2E0D5;
+ background-clip: border-box;
+ color: #734939;
+ position:relative;
+ width: 0%;
+ right: 100%;
+ font-size: 300%;
+ font-style: italic;
+ font-weight: bold;
+ padding-left: 5px;
+ letter-spacing: 5px;
+ transition-property: right;
+ transition-duration: 1s;
+}
+#nav{
+ background-color: #D9B6A3;
+ color: #734939;
+ margin-top: 3px;
+ font-size:130%;
+ text-align: right;
+ width: 0%;
+ position: relative;
+ left: 100%;
+ transition-property: left;
+ transition-duration: 1s;
+ overflow: hidden;
+}
+#g1{
+ margin-top: 5px;
+ background-image: -moz-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo.jpg);
+ background-image: -webkit-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo.jpg);
+ background-image: -o-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo.jpg);
+ background-image: -ms-linear-gradient(to right,#F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo.jpg);
+ background-image: linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo.jpg);
+ text-align:left;
+ font-size: 300%;
+ width: 0%;
+ right: 100%;
+ height:300px;
+ background-position: right;
+ position:relative;
+ transition-delay: 1s;
+ transition-property: right;
+ transition-duration: 1s; 
+}
+#g2{
+ margin-top: 5px;
+ background-image: -moz-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo1.jpg);
+ background-image: -webkit-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo1.jpg);
+ background-image: -o-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo1.jpg);
+ background-image: -ms-linear-gradient(to left,#F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo1.jpg);
+ background-image: linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo1.jpg);
+ text-align:right;
+ font-size: 300%;
+ width: 0%;
+ left: 100%;
+ height:300px;
+ background-position: left;
+ position:relative;
+ transition-delay: 2s;
+ transition-property: left;
+ transition-duration: 1s;
+ overflow: hidden;
+}
+#g3{
+ margin-top: 5px;
+ background-image: -moz-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo2.jpg);
+ background-image: -webkit-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo2.jpg);
+ background-image: -o-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo2.jpg);
+ background-image: -ms-linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo2.jpg);
+ background-image: linear-gradient(to right, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo2.jpg);
+ text-align:left;
+ font-size: 300%;
+ width: 0%;
+ right: 100%;
+ height:300px;
+ background-position: right;
+ position:relative;
+ transition-delay: 3s;
+ transition-property: right;
+ transition-duration: 1s; 
+}
+#g4{
+ margin-top: 5px;
+ background-image: -moz-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo3.jpg);
+ background-image: -webkit-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo3.jpg);
+ background-image: -o-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo3.jpg);
+ background-image: -ms-linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo3.jpg);
+ background-image: linear-gradient(to left, #F2E0D5 0%,#F2E0D5 50%, transparent 100%),url(../image/photo3.jpg);
+ text-align:right;
+ font-size: 300%;
+ width: 0%;
+ left: 100%;
+ height:300px;
+ background-position: left;
+ position:relative;
+ transition-delay: 4s;
+ transition-property: left;
+ transition-duration: 1s; 
+}
+.kav{
+ height: 100px;
+ width: 100px;
+ background-color: #D9B777;
+ border-radius: 55px 55px 55px 55px;
+ position:absolute;
+ top:calc(50% - 40px);
+ left: calc(50% - 40px);
+ font-size: 20px;
+ border: 5px solid #A67F68;
+ transform: rotate(0deg);
+ transition-property: transform,background-color; 
+ transition-duration: 2s;
+ }
+.kav:hover{
+ background-color: red;  
+ transform: rotate(720deg);
+}
+.kavt{
+ position:absolute;
+ top:calc(50% - 14px);
+}
+.Kavt1{
+ position:absolute;
+ top:calc(50% - 25px);
+}
+.arrow{
+ width:100px;
+ height:100px;
+ text-align: center;
+ position: fixed;
+ left: calc(100% - 110px);
+ top: calc(100% - 110px);
+ background-color: #D9B777;
+ border-radius: 55px 55px 55px 55px;
+ font-size: 50px;
+ color: black;
+ border: 5px dashed #A67F68;
+}
+a{
+ text-decoration: none;
+}
+a p{
+ margin-bottom: -40px;
+}
+.img{
+ height: 200px;
+ position: absolute;
+ left: calc(50% - 346.27px/2);
+ border: 5px solid #A67F68;
+ transform: scale(1);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50%);
+ transition-property: transform; 
+ transition-duration: 1s;
+}
+.img:hover{
+ transform: scale(1.2);
+}
+.link{
+ color:blue;
+}
+.link:hover{
+ color:#7B68EE;
+}
+.link:active{
+ color:#00FFFF;
+}
+.link:visited{
+ color:#191970;
+}
+.link:visited:hover{
+ color:#7B68EE;
+}
+@font-face {
+ font-family: "ArchiveRegular";
+ src: url("../fonts/ArchiveRegular/ArchiveRegular.eot");
+ src: url("../fonts/ArchiveRegular/ArchiveRegular.eot?#iefix")format("embedded-opentype"),
+ url("../fonts/ArchiveRegular/ArchiveRegular.woff") format("woff"),
+ url("../fonts/ArchiveRegular/ArchiveRegular.ttf") format("truetype");
+ font-style: normal;
+ font-weight: normal;
+}
+@font-face {
+  font-family: 'Klino';
+  src: url('../fonts/Klino/Klino.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Klino/Klino.woff') format('woff'), 
+  url('../fonts/Klino/Klino.ttf')  format('truetype'), 
+  url('../fonts/Klino/Klino.svg#Klino') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+ font-family: "AmericanTextCRegular";
+ src: url("../fonts/AmericanTextCRegular/AmericanTextCRegular.eot");
+ src: url("../fonts/AmericanTextCRegular/AmericanTextCRegular.eot?#iefix")format("embedded-opentype"),
+ url("../fonts/AmericanTextCRegular/AmericanTextCRegular.woff") format("woff"),
+ url("../fonts/AmericanTextCRegular/AmericanTextCRegular.ttf") format("truetype");
+ font-style: normal;
+ font-weight: normal;
+}
